@@ -15,5 +15,12 @@ module.exports = {
   },
   "docs": {
     "docsPage": true
-  }
+  },
+  // webpackFinal: (config, mode) => {
+  //   // config.module.rules[2].use[0].options.presets.push([
+  //   //   './node_modules/@babel/preset-typescript/lib/index.js',
+  //   //   { isTSX: true, allExtensions: true}
+  //   // ])
+  //   return config
+  // }
 }
